@@ -1,0 +1,15 @@
+networks:
+  app-tier:
+    driver: bridge
+
+services:
+  mysql:
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_RANDOM_ROOT_PASSWORD: yes
+      MYSQL_DATABASE: customer_database
+      MYSQL_USER: customer
+      MYSQL_PASSWORD: Password1
+    ports:
+      - "3306:3306"
