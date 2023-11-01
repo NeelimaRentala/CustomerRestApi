@@ -1,4 +1,4 @@
-# incentive-springboot-template-service
+# customer-api-rest-service
 
 [![Generic badge](https://img.shields.io/badge/LANGUAGE-Java_17+-blue.svg)]()
 [![Generic badge](https://img.shields.io/badge/DOKERIZED-YES-green.svg)]()
